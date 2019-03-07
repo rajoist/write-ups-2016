@@ -1,0 +1,12 @@
+Using "strings" command to view the image you get the output as:
+<<  The clue is UFJHWUFOQ1RGQlpEWEVXSFZJVUpTS1FMT00=.....Look here -> jta ndpc ows pia dwwzfec nwi fu n0ijojq0n0i3k3i   >>.
+
+So by seeing this we could say they've used base64 encryption.
+Solving it by base64 decoder---- https://www.base64decode.org/    you get the reversestring as  " PRGYANCTFBZDXEWHVIUJSKQLOM  ".
+
+
+Using this solve the remaining textusing substitution cipher with the known alphabets as  " PRGYANCTFBZDXEWHVIUJSKQLOM  "..
+https://www.dcode.fr/monoalphabetic-substitution
+
+You will get a the reverse as   THE FLAG YOU ARE LOOKING FOR IS F0RTYTW0F0R3V3R.
+There is your flag :-)
